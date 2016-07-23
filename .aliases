@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Clear
+alias c="clear"
+
+# Git
+alias gs="git status --short"
+alias gd="git diff"

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Make vim the default editor
+export EDITOR="vim"
+export GIT_EDITOR="vim"
+
+# Disable virtual env prompt
+export VIRTUAL_ENV_DISABLE_PROMPT=1
