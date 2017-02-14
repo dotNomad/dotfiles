@@ -6,3 +6,4 @@ alias c="clear"
 # Git
 alias gs="git status --short"
 alias gd="git diff"
+alias gl="git log --oneline --graph"
