@@ -7,3 +7,10 @@ alias c="clear"
 alias gs="git status --short"
 alias gd="git diff"
 alias gl="git log --oneline --graph"
+
+# Colored ls
+if ls --color &> /dev/null; then
+    alias ls="ls --color=auto"
+else
+    alias ls="ls -G"
+fi
