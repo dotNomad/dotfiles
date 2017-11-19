@@ -9,3 +9,6 @@ syntax on
 
 " Enable backspace in insert mode
 set backspace=indent,eol,start
+
+" Show cursor position
+set ruler
