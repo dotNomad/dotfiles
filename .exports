@@ -3,3 +3,8 @@
 # Make vim the default editor
 export EDITOR="vim"
 export GIT_EDITOR="vim"
+
+# Customize history
+export HISTTIMEFORMAT="%h %d %H:%M "
+export HISTSIZE=16384
+export HISTFILESIZE="$HISTSIZE"
