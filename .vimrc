@@ -12,3 +12,7 @@ set backspace=indent,eol,start
 
 " Show cursor position
 set ruler
+
+" Ignore case while searching
+set ignorecase
+set smartcase
