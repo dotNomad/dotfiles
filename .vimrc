@@ -16,3 +16,7 @@ set ruler
 " Ignore case while searching
 set ignorecase
 set smartcase
+
+" Split to the right and below
+set splitright
+set splitbelow
