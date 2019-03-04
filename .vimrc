@@ -1,8 +1,8 @@
 " Tabs to spaces
 set expandtab
 set smarttab
-set shiftwidth=4
 set tabstop=4
+set shiftwidth=0
 
 " Enable syntax highlighting
 syntax on
