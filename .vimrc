@@ -20,3 +20,6 @@ set smartcase
 " Split to the right and below
 set splitright
 set splitbelow
+
+" Highlight the current line
+set cursorline
