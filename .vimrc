@@ -23,3 +23,6 @@ set splitbelow
 
 " Highlight the current line
 set cursorline
+
+" Keep 6 lines visible when scrolling
+set scrolloff=6
