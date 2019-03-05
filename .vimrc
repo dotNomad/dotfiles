@@ -26,3 +26,8 @@ set cursorline
 
 " Keep 6 lines visible when scrolling
 set scrolloff=6
+
+" Escape insert mode with jk
+inoremap jk <ESC>
+" Optionally force jk to be used to escape
+" inoremap <ESC> <NOP>
