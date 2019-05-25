@@ -1,3 +1,6 @@
+call plug#begin('~/.vim/plugged')
+call plug#end()
+
 " Tabs to spaces
 set expandtab
 set smarttab
