@@ -1,5 +1,12 @@
+" Configure vim-plug
 call plug#begin('~/.vim/plugged')
 call plug#end()
+
+" Set true color if supported
+" https://gist.github.com/XVilka/8346728
+if exists("$COLORTERM")
+    set termguicolors
+endif
 
 " Tabs to spaces
 set expandtab
