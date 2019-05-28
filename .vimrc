@@ -1,5 +1,6 @@
 " Configure vim-plug
 call plug#begin('~/.vim/plugged')
+Plug 'morhetz/gruvbox'
 call plug#end()
 
 " Set true color if supported
@@ -7,6 +8,13 @@ call plug#end()
 if exists("$COLORTERM")
     set termguicolors
 endif
+
+" Setup colorscheme
+set background=dark
+colorscheme gruvbox
+let g:gruvbox_contrast_dark='hard'
+let g:gruvbox_invert_selection=0
+let g:gruvbox_italic=1
 
 " Tabs to spaces
 set expandtab
