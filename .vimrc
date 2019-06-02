@@ -29,6 +29,9 @@ set shiftwidth=0
 " Enable syntax highlighting
 syntax on
 
+" Highlight search patterns
+set hlsearch
+
 " Enable backspace in insert mode
 set backspace=indent,eol,start
 
