@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Vimrc Shortcut
+alias vrc="vim ~/.vimrc"
+
 # Clear
 alias c="clear"
 
