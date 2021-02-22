@@ -1,6 +1,7 @@
 " Configure vim-plug
 call plug#begin('~/.vim/plugged')
 Plug 'morhetz/gruvbox'
+Plug 'scrooloose/nerdtree'
 call plug#end()
 
 " Set true color if supported
@@ -56,3 +57,12 @@ set scrolloff=6
 inoremap jk <ESC>
 " Optionally force jk to be used to escape
 " inoremap <ESC> <NOP>
+
+" Set leader key
+let mapleader = ","
+
+" Easily open NERDTree
+nnoremap <leader>f :NERDTreeToggle<CR>
+
+" Enable scrolling in iTerm
+" set mouse=a
