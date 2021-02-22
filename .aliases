@@ -14,3 +14,6 @@ if ls --color &> /dev/null; then
 else
     alias ls="ls -G"
 fi
+
+# Colored grep
+alias grep="grep --color=auto"
