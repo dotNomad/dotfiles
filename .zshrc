@@ -90,3 +90,7 @@ PROMPT='
 PROMPT='
 %B%F{green}%~%f%b $(git_prompt "on %{$fg_bold[magenta]%}")%{$reset_color%}
 ❯ '
+
+# Enable vim mode
+bindkey -v
+bindkey -M viins 'jk' vi-cmd-mode
