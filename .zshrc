@@ -1,26 +1,7 @@
-# ALIASES
-
-# Colored ls
-if ls --color &> /dev/null; then
-    alias ls="ls --color=auto"
-else
-    alias ls="ls -G"
-fi
-
-# Clear
-alias c="clear"
-# Git
-alias gs="git status --short"
-alias gd="git diff"
-alias gl="git log --oneline --graph"
-alias glp="git log --graph --pretty=format:'%C(auto)%h%Creset%C(auto)%d%Creset %C(auto)%s%Creset %C(green)(%cr)%Creset %C(blue)<%an>%Creset'"
-
-# EXPORTS
-
-# Make vim the default editor
-export EDITOR="vim"
-export VISUAL="vim"
-export GIT_EDITOR="vim"
+for file (~/.aliases ~/.exports) do
+    [[ -f $file ]] && source $file
+done
+unset file
 
 # History
 
