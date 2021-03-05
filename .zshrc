@@ -4,6 +4,8 @@ done
 unset file
 
 # History
+alias history="history -t '$HISTTIMEFORMAT'"
+setopt APPEND_HISTORY
 
 # PROMPT
 
