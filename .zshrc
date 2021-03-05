@@ -1,7 +1,3 @@
-# Activate starship
-
-# eval "$(starship init zsh)"
-
 # ALIASES
 
 # Colored ls
