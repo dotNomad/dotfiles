@@ -73,3 +73,6 @@ PROMPT='
 # Enable vim mode
 bindkey -v
 bindkey -M viins 'jk' vi-cmd-mode
+
+# Enable backspace in insert mode
+bindkey "^?" backward-delete-char
