@@ -10,6 +10,8 @@ alias c="clear"
 alias gs="git status --short"
 alias gd="git diff"
 alias gl="git log --oneline --graph"
+alias glp="git log --graph --pretty=format:'%C(auto)%h%Creset%C(auto)%d%Creset %C(auto)%s%Creset %C(green)(%cr)%Creset %C(blue)%an%Creset'"
+
 
 # Colored ls
 if ls --color &> /dev/null; then
