@@ -2,6 +2,14 @@
 
 A simple group of dotfiles that I'm sure will expand as I hunt for new features, functions, and improvements
 
+## Install
+
+Use symlinks for the wanted files
+
+```
+ln -s ~/development/dotfiles/.zshrc ~/.zshrc
+```
+
 ### Commit Messages
 
 Messages should start with the affected `[software]`
