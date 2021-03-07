@@ -3,3 +3,6 @@
 
 # vscode
 .vscode/*
+
+# Vim swap files
+[._]*.sw[a-p]
