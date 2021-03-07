@@ -10,6 +10,16 @@ Use symlinks for the wanted files
 ln -s ~/development/dotfiles/.zshrc ~/.zshrc
 ```
 
+### Git Config
+
+The `.gitconfig.local` file is included by `.gitconfig`. Use it to store user information.
+
+```
+[user]
+    name = Jordan Jensen
+    email = fake@invalid.com
+```
+
 ### Commit Messages
 
 Messages should start with the affected `[software]`

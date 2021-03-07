@@ -8,3 +8,10 @@
     changed = yellow
     untracked = red
     branch = white
+
+[include]
+
+    # Load local config
+    # https://git-scm.com/docs/git-config#_includes
+
+    path = ~/.gitconfig.local
