@@ -7,8 +7,7 @@ unset file
 alias history="history -t '$HISTTIMEFORMAT'"
 setopt APPEND_HISTORY
 
-# PROMPT
-
+# Prompt
 git_prompt() {
     local branchName=""
     local state=""
@@ -53,22 +52,13 @@ colors
  
 setopt PROMPT_SUBST
 
-NEWLINE='
-'
-
-PROMPT='
-%{$fg_bold[orange]%}%~%{$reset_color%} $(git_prompt "on %{$fg_bold[magenta]%}")%{$reset_color%}
-❯ '
-
-[[ $COLORTERM = *(24bit|truecolor)* ]] || zmodload zsh/nearcolor
-
-PROMPT='
-%F{#fe8019}%~%f $(git_prompt "on %{$fg_bold[magenta]%}")%{$reset_color%}
-❯ '
-
-PROMPT='
-%B%F{green}%~%f%b $(git_prompt "on %{$fg_bold[magenta]%}")%{$reset_color%}
-❯ '
+PROMPT=$'\n'                                        # newline to start
+PROMPT+='%{$fg_bold[green]%}%~'                     # Current directory starting with ~
+PROMPT+='%{$reset_color%}'
+PROMPT+=' $(git_prompt "on %{$fg_bold[magenta]%}")' # Git Repository details
+PROMPT+='%{$reset_color%}'
+PROMPT+=$'\n'                                       # newline to end
+PROMPT+='❯ '                                        # End symbol
 
 # Enable vim mode
 bindkey -v
