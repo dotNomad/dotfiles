@@ -7,6 +7,10 @@ unset file
 alias history="history -t '$HISTTIMEFORMAT'"
 setopt APPEND_HISTORY
 
+# Completion
+autoload -Uz compinit
+compinit
+
 # Prompt
 git_prompt() {
     local branchName=""
