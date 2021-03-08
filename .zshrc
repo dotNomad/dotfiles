@@ -11,6 +11,12 @@ setopt APPEND_HISTORY
 autoload -Uz compinit
 compinit
 
+zstyle ':completion:*' menu select
+zmodload zsh/complist
+
+# Use Shift+Tab to go backwards in menu completion
+bindkey -M menuselect '^[[Z' reverse-menu-complete
+
 # Prompt
 git_prompt() {
     local branchName=""
