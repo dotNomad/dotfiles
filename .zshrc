@@ -76,3 +76,5 @@ bindkey -M viins 'jk' vi-cmd-mode
 
 # Enable backspace in insert mode
 bindkey "^?" backward-delete-char
+
+[ -f ~/.zshrc.local ] && source ~/.zshrc.local
