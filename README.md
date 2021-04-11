@@ -22,9 +22,9 @@ The `.gitconfig.local` file is included by `.gitconfig`. Use it to store user in
 
 ## Optional tools
 
-- (`bat`)[https://github.com/sharkdp/bat]
-- (`fzf`)[https://github.com/junegunn/fzf]
-- (ripgrep `rg`)[https://github.com/BurntSushi/ripgrep]
+- [`bat`](https://github.com/sharkdp/bat)
+- [`fzf`](https://github.com/junegunn/fzf)
+- [ripgrep `rg`](https://github.com/BurntSushi/ripgrep)
 
 ### Commit Messages
 
