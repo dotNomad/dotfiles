@@ -1,6 +1,7 @@
 # dotNomad's dotfiles
 
-A simple group of dotfiles that I'm sure will expand as I hunt for new features, functions, and improvements
+A simple group of dotfiles that I'm sure will expand as I hunt for new features,
+functions, and improvements
 
 ## Install
 
@@ -12,7 +13,8 @@ ln -s ~/development/dotfiles/.zshrc ~/.zshrc
 
 ### Git Config
 
-The `.gitconfig.local` file is included by `.gitconfig`. Use it to store user information.
+The `.gitconfig.local` file is included by `.gitconfig`. Use it to store user
+information.
 
 ```
 [user]
@@ -30,7 +32,8 @@ The `.gitconfig.local` file is included by `.gitconfig`. Use it to store user in
 
 Messages should start with the affected `[software]`
 
-If there is not a specific piece of software the commit targets then it can be excluded
+If there is not a specific piece of software the commit targets then it can be
+excluded
 
 ### Heavily inspired by:
 * [Mathias Bynens's dotfiles](https://github.com/mathiasbynens/dotfiles)
