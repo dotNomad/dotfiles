@@ -16,4 +16,4 @@ echo `tput sitm`italics`tput ritm` `tput smso`standout`tput rmso`
 
 ## References
 
-- [Vim screencast #22: Italics by Greg Hurrell](https://youtu.be/n1cKtZfwOgQ)
+- [Vim screencast #22: Italics by Greg Hurrell](https://youtu.be/n1cKtZfwOgQ?t=16)
