@@ -77,4 +77,11 @@ bindkey -M viins 'jk' vi-cmd-mode
 # Enable backspace in insert mode
 bindkey "^?" backward-delete-char
 
+if type fzf &> /dev/null && fd &> /dev/null; then
+    # Use fd for fzf to show hidden files and respect .gitignore
+    export FZF_DEFAULT_COMMAND='fd --type f --hidden --exclude .git'
+    # Use the fzf default command for the CTRL+T key binding
+    export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+fi
+
 [ -f ~/.zshrc.local ] && source ~/.zshrc.local

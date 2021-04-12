@@ -26,6 +26,7 @@ information.
 
 - [`bat`](https://github.com/sharkdp/bat)
 - [`fzf`](https://github.com/junegunn/fzf)
+- [`fd`](https://github.com/sharkdp/fd)
 - [ripgrep `rg`](https://github.com/BurntSushi/ripgrep)
 
 ### Commit Messages
