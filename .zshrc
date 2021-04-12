@@ -77,6 +77,10 @@ bindkey -M viins 'jk' vi-cmd-mode
 # Enable backspace in insert mode
 bindkey "^?" backward-delete-char
 
+# Setup fzf from installed ~/.fzf.zsh file
+# Enables fzf, auto-completion, and key bindings
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
 if type fzf &> /dev/null && fd &> /dev/null; then
     # Use fd for fzf to show hidden files and respect .gitignore
     export FZF_DEFAULT_COMMAND='fd --type f --hidden --exclude .git'
