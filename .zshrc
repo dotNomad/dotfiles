@@ -3,6 +3,10 @@ for file (~/.aliases ~/.exports) do
 done
 unset file
 
+# History
+HISTFILE=${ZDOTDIR:-$HOME}/.zsh_history
+HISTSIZE=16384
+SAVEHIST=16384
 
 # Completion
 autoload -Uz compinit
