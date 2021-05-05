@@ -4,6 +4,10 @@ done
 unset file
 
 # History
+setopt EXTENDED_HISTORY
+setopt SHARE_HISTORY
+setopt HIST_IGNORE_DUPS
+
 HISTFILE=${ZDOTDIR:-$HOME}/.zsh_history
 HISTSIZE=16384
 SAVEHIST=16384
