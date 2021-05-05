@@ -8,6 +8,9 @@ HISTFILE=${ZDOTDIR:-$HOME}/.zsh_history
 HISTSIZE=16384
 SAVEHIST=16384
 
+# History with strftime format
+alias history="history -t '%b %d %Y %H:%M'"
+
 # Completion
 autoload -Uz compinit
 compinit
