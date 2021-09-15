@@ -1,7 +1,4 @@
-# dotNomad's dotfiles
-
-A simple group of dotfiles that I'm sure will expand as I hunt for new features,
-functions, and improvements
+# dhruvi's dotfiles
 
 ## Install
 
