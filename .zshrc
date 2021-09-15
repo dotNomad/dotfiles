@@ -1,4 +1,4 @@
-for file (~/.aliases ~/.exports) do
+for file (~/.aliases) do
     [[ -f $file ]] && source $file
 done
 unset file
