@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Vimrc Shortcut
-alias vrc="vim ~/.vimrc"
-
 # zshrc Shortcut
 alias vzrc="vim ~/.zshrc"
 
