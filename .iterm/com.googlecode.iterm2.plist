@@ -1449,6 +1449,12 @@
 	<false/>
 	<key>PromptOnQuit</key>
 	<false/>
+	<key>QuitWhenAllWindowsClosed</key>
+	<true/>
+	<key>SeparateStatusBarsPerPane</key>
+	<true/>
+	<key>SeparateWindowTitlePerTab</key>
+	<true/>
 	<key>ShowPaneTitles</key>
 	<true/>
 	<key>SoundForEsc</key>
