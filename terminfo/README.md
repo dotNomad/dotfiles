@@ -1,12 +1,10 @@
 # terminfo
 
-Adds italics support to xterm-256color and tmux `TERMINFO` files.
+Adds italics support to xterm-256color `TERMINFO` files.
 
 ## Install
 ```
 tic -o ~/.terminfo xterm-256color.terminfo
-tic -o ~/.terminfo tmux.terminfo
-tic -o ~/.terminfo tmux-256color.terminfo
 ```
 
 ## Verify It Is Working
