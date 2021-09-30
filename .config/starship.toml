@@ -1,0 +1,24 @@
+[character]
+success_symbol = "❯"
+
+[directory]
+style = "bold green"
+truncation_length = 0
+truncate_to_repo = false
+
+[git_branch]
+symbol = ""
+only_attached = true
+
+[git_commit]
+format = "on [$hash$tag]($style) "
+style = "bold purple"
+
+[git_status]
+style = "bold purple"
+
+[nodejs]
+disabled = true
+
+[package]
+disabled = true
