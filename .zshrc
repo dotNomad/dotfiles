@@ -97,3 +97,7 @@ if type fzf &> /dev/null && fd &> /dev/null; then
 fi
 
 [ -f ~/.zshrc.local ] && source ~/.zshrc.local
+
+if type starship &> /dev/null; then
+    eval "$(starship init zsh)"
+fi
