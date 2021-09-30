@@ -1,5 +1,6 @@
 [character]
 success_symbol = "❯"
+vicmd_symbol = "❮"
 
 [directory]
 style = "bold green"
