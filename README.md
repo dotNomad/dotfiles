@@ -2,10 +2,11 @@
 
 ## Install
 
-Use symlinks for the wanted files
+1. Clone the repo to the local machine
+2. Use symlinks for the wanted files from the repo
 
 ```
-ln -s ~/development/dotfiles/.zshrc ~/.zshrc
+ln -s ~/code/dotfiles/.zshrc ~/.zshrc
 ```
 
 ### Git Config
@@ -25,6 +26,7 @@ information.
 - [`fzf`](https://github.com/junegunn/fzf)
 - [`fd`](https://github.com/sharkdp/fd)
 - [ripgrep `rg`](https://github.com/BurntSushi/ripgrep)
+- [`starship`](https://starship.rs/)
 
 ### Commit Messages
 
@@ -32,7 +34,3 @@ Messages should start with the affected `[software]`
 
 If there is not a specific piece of software the commit targets then it can be
 excluded
-
-### Heavily inspired by:
-* [Mathias Bynens's dotfiles](https://github.com/mathiasbynens/dotfiles)
-* [Cătălin Mariș's dotfiles](https://github.com/alrra/dotfiles)
