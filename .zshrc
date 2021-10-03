@@ -47,6 +47,6 @@ fi
 
 [ -f ~/.zshrc.local ] && source ~/.zshrc.local
 
-# enable starship shell prompt
-# need a nerd font installed for this to work
-eval "$(starship init zsh)"
+if type starship &> /dev/null; then
+    eval "$(starship init zsh)"
+fi
