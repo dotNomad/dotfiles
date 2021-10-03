@@ -26,3 +26,6 @@ disabled = true
 
 [package]
 disabled = true
+
+[python]
+symbol = " "
