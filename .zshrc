@@ -38,7 +38,7 @@ bindkey "^?" backward-delete-char
 # Enables fzf, auto-completion, and key bindings
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-if type fzf &> /dev/null && fd &> /dev/null; then
+if type fzf &> /dev/null && fd -V &> /dev/null; then
     # Use fd for fzf to show hidden files and respect .gitignore
     export FZF_DEFAULT_COMMAND='fd --type f --hidden --exclude .git'
     # Use the fzf default command for the CTRL+T key binding
