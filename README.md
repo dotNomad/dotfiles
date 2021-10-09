@@ -23,7 +23,7 @@ Use `Terminal` to setup iTerm
 
 ### Install
 
-1. Install `Homebrew`
+1. Install [`Homebrew`](https://brew.sh/)
 2. Run `brew bundle` from the Brewfile directory
 
 ### Generate Brewfile
