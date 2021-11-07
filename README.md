@@ -28,6 +28,7 @@ information.
 - [`fzf`](https://github.com/junegunn/fzf)
 - [`fd`](https://github.com/sharkdp/fd)
 - [ripgrep `rg`](https://github.com/BurntSushi/ripgrep)
+- [starship](https://starship.rs/)
 
 ### Commit Messages
 
