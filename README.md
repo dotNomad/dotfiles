@@ -26,6 +26,7 @@ information.
 
 - [`bat`](https://github.com/sharkdp/bat)
 - [`fzf`](https://github.com/junegunn/fzf)
+    - [`fzf-tab`](https://github.com/Aloxaf/fzf-tab)
 - [`fd`](https://github.com/sharkdp/fd)
 - [ripgrep `rg`](https://github.com/BurntSushi/ripgrep)
 - [starship](https://starship.rs/)
