@@ -21,6 +21,9 @@ style = "bold purple"
 [git_status]
 style = "bold purple"
 
+[golang]
+disabled = true
+
 [nodejs]
 disabled = true
 
