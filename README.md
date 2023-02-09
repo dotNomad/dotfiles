@@ -11,6 +11,15 @@ Use symlinks for the wanted files
 ln -s ~/development/dotfiles/.zshrc ~/.zshrc
 ```
 
+### Visual Studio Code
+
+Once Visual Studio Code is installed remove the original `settings.json` and
+create a symlink to the `settings.json` in the vscode directory.
+
+```
+ln -s ~/development/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+```
+
 ### Git Config
 
 The `.gitconfig.local` file is included by `.gitconfig`. Use it to store user
