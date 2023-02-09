@@ -1,0 +1,27 @@
+{
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.fontSize": 14,
+    "editor.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace",
+    "editor.formatOnSave": true,
+    "editor.rulers": [
+        80
+    ],
+    "editor.stickyScroll.enabled": true,
+    "files.insertFinalNewline": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "k"
+            ],
+            "after": [
+                "<esc>"
+            ]
+        }
+    ],
+    "workbench.colorTheme": "Monokai Pro (Filter Ristretto)",
+    "workbench.iconTheme": "Monokai Pro (Filter Ristretto) Icons",
+    "[json][javascript][typescript]": {
+        "editor.tabSize": 2
+    },
+}
