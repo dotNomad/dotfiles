@@ -23,6 +23,9 @@
     ],
     "workbench.colorTheme": "Monokai Pro (Filter Ristretto)",
     "workbench.iconTheme": "Monokai Pro (Filter Ristretto) Icons",
+    "workbench.colorCustomizations": {
+        "terminal.background": "#2c2525",
+    },
     "[json][javascript][typescript]": {
         "editor.tabSize": 2
     },
