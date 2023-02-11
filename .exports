@@ -2,7 +2,10 @@
 
 # Make vim the default editor
 export EDITOR="vim"
-export GIT_EDITOR="vim"
+
+if ! [[ -v GIT_EDITOR ]]; then
+    export GIT_EDITOR="vim"
+fi
 
 # Customize history
 # export HISTTIMEFORMAT="%h %d %Y %H:%M "
