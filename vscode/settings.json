@@ -29,4 +29,7 @@
     "[json][javascript][typescript]": {
         "editor.tabSize": 2
     },
+    "terminal.integrated.env.osx": {
+        "GIT_EDITOR": "code --wait"
+    },
 }
