@@ -8,6 +8,8 @@
     ],
     "editor.stickyScroll.enabled": true,
     "files.insertFinalNewline": true,
+    "terminal.integrated.fontFamily": "'Hack Nerd Font Mono', Menlo",
+    "terminal.integrated.fontSize": 14,
     "vim.insertModeKeyBindings": [
         {
             "before": [
