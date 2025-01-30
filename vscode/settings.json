@@ -1,4 +1,8 @@
 {
+  "[git-commit]": {
+    "editor.rulers": [72, 50],
+    "editor.wordWrap": "off"
+  },
   "[json][javascript][typescript]": {
     "editor.tabSize": 2
   },
