@@ -2,6 +2,7 @@
   "[json][javascript][typescript]": {
     "editor.tabSize": 2
   },
+  "diffEditor.renderSideBySide": false,
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "editor.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 14,
