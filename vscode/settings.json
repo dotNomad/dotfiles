@@ -12,6 +12,7 @@
   "files.insertFinalNewline": true,
   "gitlens.codeLens.enabled": false,
   "gitlens.currentLine.enabled": false,
+  "gitlens.launchpad.indicator.enabled": false,
   "terminal.integrated.env.osx": {
     "GIT_EDITOR": "code --wait"
   },
