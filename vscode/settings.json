@@ -35,5 +35,8 @@
     "terminal.background": "#2c2525"
   },
   "workbench.colorTheme": "Monokai Pro (Filter Ristretto)",
+  "workbench.editorAssociations": {
+    "git-rebase-todo": "default"
+  },
   "workbench.iconTheme": "Monokai Pro (Filter Ristretto) Icons"
 }
