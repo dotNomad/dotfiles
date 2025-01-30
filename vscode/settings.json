@@ -1,35 +1,28 @@
 {
-    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-    "editor.fontSize": 14,
-    "editor.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace",
-    "editor.formatOnSave": true,
-    "editor.rulers": [
-        80
-    ],
-    "editor.stickyScroll.enabled": true,
-    "files.insertFinalNewline": true,
-    "terminal.integrated.fontFamily": "'Hack Nerd Font Mono', Menlo",
-    "terminal.integrated.fontSize": 14,
-    "vim.insertModeKeyBindings": [
-        {
-            "before": [
-                "j",
-                "k"
-            ],
-            "after": [
-                "<esc>"
-            ]
-        }
-    ],
-    "workbench.colorTheme": "Monokai Pro (Filter Ristretto)",
-    "workbench.iconTheme": "Monokai Pro (Filter Ristretto) Icons",
-    "workbench.colorCustomizations": {
-        "terminal.background": "#2c2525",
-    },
-    "[json][javascript][typescript]": {
-        "editor.tabSize": 2
-    },
-    "terminal.integrated.env.osx": {
-        "GIT_EDITOR": "code --wait"
-    },
+  "[json][javascript][typescript]": {
+    "editor.tabSize": 2
+  },
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.formatOnSave": true,
+  "editor.rulers": [80],
+  "editor.stickyScroll.enabled": true,
+  "files.insertFinalNewline": true,
+  "terminal.integrated.env.osx": {
+    "GIT_EDITOR": "code --wait"
+  },
+  "terminal.integrated.fontFamily": "'Hack Nerd Font Mono', Menlo",
+  "terminal.integrated.fontSize": 14,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "k"],
+      "after": ["<esc>"]
+    }
+  ],
+  "workbench.colorCustomizations": {
+    "terminal.background": "#2c2525"
+  },
+  "workbench.colorTheme": "Monokai Pro (Filter Ristretto)",
+  "workbench.iconTheme": "Monokai Pro (Filter Ristretto) Icons"
 }
