@@ -15,3 +15,7 @@
     # https://git-scm.com/docs/git-config#_includes
 
     path = ~/.gitconfig.local
+
+[init]
+
+	defaultBranch = main
