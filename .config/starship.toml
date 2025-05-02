@@ -1,9 +1,14 @@
-[aws]
-disabled = true
-
-[character]
-success_symbol = "❯"
-vicmd_symbol = "❮"
+format = """
+$username\
+$hostname\
+$directory\
+$git_branch\
+$git_commit\
+$git_state\
+$git_status\
+$cmd_duration\
+$line_break\
+$character"""
 
 [directory]
 style = "bold green"
@@ -21,11 +26,6 @@ style = "bold purple"
 [git_status]
 style = "bold purple"
 
-[golang]
-disabled = true
-
-[nodejs]
-disabled = true
-
-[package]
-disabled = true
+[character]
+success_symbol = "❯"
+vicmd_symbol = "❮"
