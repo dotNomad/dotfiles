@@ -8,7 +8,7 @@
   },
   "diffEditor.renderSideBySide": false,
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-  "editor.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "Berkeley Mono, Hack, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 14,
   "editor.formatOnSave": true,
   "editor.rulers": [80],
