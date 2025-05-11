@@ -1,6 +1,6 @@
 # https://ghostty.org/docs/config/reference
 
-font-family = Hack Nerd Font Mono
+font-family = Berkeley Mono
 font-size = 14
 font-feature = -calt, -liga, -dlig
 
