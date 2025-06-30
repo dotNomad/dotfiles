@@ -39,6 +39,7 @@ information.
 - [`fd`](https://github.com/sharkdp/fd)
 - [ripgrep `rg`](https://github.com/BurntSushi/ripgrep)
 - [starship](https://starship.rs/)
+- [zoxide](https://github.com/ajeetdsouza/zoxide)
 
 ### Commit Messages
 

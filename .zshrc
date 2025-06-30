@@ -101,3 +101,7 @@ fi
 if type starship &> /dev/null; then
     eval "$(starship init zsh)"
 fi
+
+if type zoxide &> /dev/null; then
+    eval "$(zoxide init --cmd cd zsh)"
+fi
