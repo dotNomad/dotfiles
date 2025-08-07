@@ -16,3 +16,4 @@ window-padding-balance = false
 
 window-height = 24
 window-width = 80
+keybind = shift+enter=text:\x0A
