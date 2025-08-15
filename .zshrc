@@ -102,6 +102,6 @@ if type starship &> /dev/null; then
     eval "$(starship init zsh)"
 fi
 
-if type zoxide &> /dev/null; then
+if type zoxide &> /dev/null && [[ -z "$DISABLE_ZOXIDE" ]]; then
     eval "$(zoxide init --cmd cd zsh)"
 fi
