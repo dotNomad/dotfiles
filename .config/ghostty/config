@@ -14,6 +14,8 @@ window-padding-x = 12
 window-padding-y = 12
 window-padding-balance = false
 
+window-new-tab-position = end
+
 window-height = 24
 window-width = 80
 keybind = shift+enter=text:\x0A
