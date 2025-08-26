@@ -25,7 +25,17 @@ zmodload zsh/complist
 # Use Shift+Tab to go backwards in menu completion
 bindkey -M menuselect '^[[Z' reverse-menu-complete
 
+# Enable vim mode
+bindkey -v
+bindkey -M viins 'jk' vi-cmd-mode
+
+# Enable backspace in insert mode
+bindkey "^?" backward-delete-char
+
 # Prompt
+if type starship &> /dev/null; then
+    eval "$(starship init zsh)"
+else
 git_prompt() {
     local branchName=""
     local state=""
@@ -77,13 +87,7 @@ PROMPT+=' $(git_prompt "on %{$fg_bold[magenta]%}")' # Git Repository details
 PROMPT+='%{$reset_color%}'
 PROMPT+=$'\n'                                       # newline to end
 PROMPT+='❯ '                                        # End symbol
-
-# Enable vim mode
-bindkey -v
-bindkey -M viins 'jk' vi-cmd-mode
-
-# Enable backspace in insert mode
-bindkey "^?" backward-delete-char
+fi
 
 # Setup fzf from installed ~/.fzf.zsh file
 # Enables fzf, auto-completion, and key bindings
@@ -98,9 +102,6 @@ fi
 
 [ -f ~/.zshrc.local ] && source ~/.zshrc.local
 
-if type starship &> /dev/null; then
-    eval "$(starship init zsh)"
-fi
 
 if type zoxide &> /dev/null && [[ -z "$DISABLE_ZOXIDE" ]]; then
     eval "$(zoxide init --cmd cd zsh)"
