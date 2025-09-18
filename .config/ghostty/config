@@ -4,7 +4,7 @@ font-family = Berkeley Mono
 font-size = 14
 font-feature = -calt, -liga, -dlig
 
-theme = GruvboxDarkHard
+theme = Gruvbox Dark Hard
 
 cursor-style = block
 
