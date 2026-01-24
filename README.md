@@ -3,21 +3,12 @@
 A simple group of dotfiles that I'm sure will expand as I hunt for new features,
 functions, and improvements
 
-## Install
+## Install (macOS)
 
-Use symlinks for the wanted files
-
-```
-ln -s ~/development/dotfiles/.zshrc ~/.zshrc
-```
-
-### Visual Studio Code
-
-Once Visual Studio Code is installed remove the original `settings.json` and
-create a symlink to the `settings.json` in the vscode directory.
+Install the dotfiles using the install script on macOS
 
 ```
-ln -s ~/development/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+./install.sh
 ```
 
 ### Git Config
@@ -35,7 +26,7 @@ information.
 
 - [`bat`](https://github.com/sharkdp/bat)
 - [`fzf`](https://github.com/junegunn/fzf)
-    - [`fzf-tab`](https://github.com/Aloxaf/fzf-tab)
+  - [`fzf-tab`](https://github.com/Aloxaf/fzf-tab)
 - [`fd`](https://github.com/sharkdp/fd)
 - [ripgrep `rg`](https://github.com/BurntSushi/ripgrep)
 - [starship](https://starship.rs/)
@@ -49,5 +40,6 @@ If there is not a specific piece of software the commit targets then it can be
 excluded
 
 ### Heavily inspired by:
-* [Mathias Bynens's dotfiles](https://github.com/mathiasbynens/dotfiles)
-* [Cătălin Mariș's dotfiles](https://github.com/alrra/dotfiles)
+
+- [Mathias Bynens's dotfiles](https://github.com/mathiasbynens/dotfiles)
+- [Cătălin Mariș's dotfiles](https://github.com/alrra/dotfiles)
