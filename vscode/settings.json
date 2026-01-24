@@ -20,7 +20,7 @@
   "terminal.integrated.env.osx": {
     "GIT_EDITOR": "code --wait",
   },
-  "terminal.integrated.fontFamily": "'Hack Nerd Font Mono', Menlo",
+  "terminal.integrated.fontFamily": "Berkeley Mono, 'Hack Nerd Font Mono', Menlo",
   "terminal.integrated.fontSize": 14,
   "vim.insertModeKeyBindings": [
     {
