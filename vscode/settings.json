@@ -1,10 +1,10 @@
 {
   "[git-commit]": {
-    "editor.rulers": [72, 50],
-    "editor.wordWrap": "off"
+    "editor.rulers": [50, 72],
+    "editor.wordWrap": "off",
   },
   "[json][javascript][typescript]": {
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
   },
   "diffEditor.renderSideBySide": false,
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
@@ -18,22 +18,22 @@
   "git.inputValidation": true,
   "git.inputValidationLength": 50,
   "terminal.integrated.env.osx": {
-    "GIT_EDITOR": "code --wait"
+    "GIT_EDITOR": "code --wait",
   },
   "terminal.integrated.fontFamily": "'Hack Nerd Font Mono', Menlo",
   "terminal.integrated.fontSize": 14,
   "vim.insertModeKeyBindings": [
     {
       "before": ["j", "k"],
-      "after": ["<esc>"]
-    }
+      "after": ["<esc>"],
+    },
   ],
   "workbench.colorCustomizations": {
-    "terminal.background": "#2c2525"
+    "terminal.background": "#2c2525",
   },
   "workbench.colorTheme": "Monokai Pro (Filter Ristretto)",
   "workbench.editorAssociations": {
-    "git-rebase-todo": "default"
+    "git-rebase-todo": "default",
   },
-  "workbench.iconTheme": "Monokai Pro (Filter Ristretto) Icons"
+  "workbench.iconTheme": "Monokai Pro (Filter Ristretto) Icons",
 }
