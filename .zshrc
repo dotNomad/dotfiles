@@ -1,3 +1,6 @@
+# Uncomment for profiling
+# zmodload zsh/zprof
+
 for file (~/.aliases ~/.exports) do
     [[ -f $file ]] && source $file
 done
@@ -106,3 +109,6 @@ fi
 if type zoxide &> /dev/null && [[ -z "$DISABLE_ZOXIDE" ]]; then
     eval "$(zoxide init --cmd cd zsh)"
 fi
+
+# Uncomment for profiling
+# zprof
