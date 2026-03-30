@@ -31,6 +31,7 @@ information.
 - [ripgrep `rg`](https://github.com/BurntSushi/ripgrep)
 - [starship](https://starship.rs/)
 - [zoxide](https://github.com/ajeetdsouza/zoxide)
+- [Rectangle Pro](https://rectangleapp.com/pro/)
 
 ### Commit Messages
 
