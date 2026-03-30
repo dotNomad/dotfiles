@@ -24,6 +24,8 @@ information.
 
 ## Optional tools
 
+### CLI tools
+
 - [`bat`](https://github.com/sharkdp/bat)
 - [`fzf`](https://github.com/junegunn/fzf)
   - [`fzf-tab`](https://github.com/Aloxaf/fzf-tab)
@@ -31,6 +33,9 @@ information.
 - [ripgrep `rg`](https://github.com/BurntSushi/ripgrep)
 - [starship](https://starship.rs/)
 - [zoxide](https://github.com/ajeetdsouza/zoxide)
+
+### Desktop apps
+
 - [Rectangle Pro](https://rectangleapp.com/pro/)
 
 ### Commit Messages
