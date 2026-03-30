@@ -107,7 +107,7 @@ fi
 
 
 if type zoxide &> /dev/null && [[ -z "$DISABLE_ZOXIDE" ]]; then
-    eval "$(zoxide init --cmd cd zsh)"
+    eval "$(zoxide init zsh)"
 fi
 
 # Uncomment for profiling
