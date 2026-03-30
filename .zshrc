@@ -92,15 +92,16 @@ else
     PROMPT+='❯ '                                        # End symbol
 fi
 
-# Setup fzf from installed ~/.fzf.zsh file
-# Enables fzf, auto-completion, and key bindings
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+# Setup fzf key bindings and fuzzy completion
+if type fzf &> /dev/null; then
+    source <(fzf --zsh)
 
-if type fzf &> /dev/null && fd -V &> /dev/null; then
-    # Use fd for fzf to show hidden files and respect .gitignore
-    export FZF_DEFAULT_COMMAND='fd --type f --hidden --exclude .git'
-    # Use the fzf default command for the CTRL+T key binding
-    export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+    if fd -V &> /dev/null; then
+        # Use fd for fzf to show hidden files and respect .gitignore
+        export FZF_DEFAULT_COMMAND='fd --type f --hidden --exclude .git'
+        # Use the fzf default command for the CTRL+T key binding
+        export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+    fi
 fi
 
 [ -f ~/.zshrc.local ] && source ~/.zshrc.local
