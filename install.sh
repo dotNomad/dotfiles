@@ -141,4 +141,22 @@ else
     echo
 fi
 
+# Create local override files if they don't exist
+LOCAL_FILES=(
+    .zshrc.local
+    .gitconfig.local
+)
+
+echo "Local override files:"
+for file in "${LOCAL_FILES[@]}"; do
+    target="$HOME/$file"
+    if [[ -e "$target" ]]; then
+        print_skip "Already exists: $file"
+    else
+        touch "$target"
+        print_success "Created: $file"
+    fi
+done
+echo
+
 echo "dotNomad/dotfiles installed"
