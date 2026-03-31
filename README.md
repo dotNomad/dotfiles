@@ -30,6 +30,7 @@ information.
 - [`fzf`](https://github.com/junegunn/fzf)
   - [`fzf-tab`](https://github.com/Aloxaf/fzf-tab)
 - [`fd`](https://github.com/sharkdp/fd)
+- [`gh`](https://cli.github.com/)
 - [ripgrep `rg`](https://github.com/BurntSushi/ripgrep)
 - [starship](https://starship.rs/)
 - [zoxide](https://github.com/ajeetdsouza/zoxide)
